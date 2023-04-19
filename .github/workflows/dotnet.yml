@@ -39,7 +39,6 @@ jobs:
       run: dotnet build --no-restore
     # step 5: run tests
     - name: Test
-      #tests are run but it doesnt build the test project before running it
+      #tests are run but it doesnt build the test project before runninf it
       run: dotnet test --no-build --verbosity normal
-
 
